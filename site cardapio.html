@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pedido de Pizza</title>
+    <link rel="stylesheet" href="assets2/CSS/style.css">
+</head>
+<body>
+    <h1>Faça seu pedido de pizza</h1>
+    <form id="pedido">
+        <label for="sabor">Escolha o sabor:</label> 
+        <select id="sabor" name="sabor">
+            <option value="marguerita">Marguerita</option>
+            <option value="pepperoni">Pepperoni</option>
+            <option value="quatro-queijos">Quatro Queijos</option>
+            <option value="calabresa">Calabresa</option>
+            <option value="frango-catupiry">Frango com Catupiry</option>
+            <option value="portuguesa">Portuguesa</option>
+        </select>
+
+        <label for="tamanho">Escolha o tamanho:</label>
+        <select id="tamanho" name="tamanho">
+            <option value="pequena">Pequena</option>
+            <option value="média">Média</option>
+            <option value="grande">Grande</option>
+        </select>
+
+
+        <label for="endereco">Digite seu endereço:</label>
+        <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço aqui">
+
+        <button type="submit">Fazer Pedido</button>
+    </form>
+
+    <div id="mensagem" class="mensagem"></div>
+
+    <script src="assets2/java/script.js"></script>
+</body>
+</html>
